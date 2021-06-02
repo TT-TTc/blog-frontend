@@ -7,7 +7,7 @@
         </h1>
       </div>
     </div>
-    <g-link to="/" class="journal-post">
+    <g-link  class="journal-post">
       <div class="container journal">
         <h2 class="journal-title">
           Gridsome with Forestry CMS
@@ -17,7 +17,7 @@
         </p>
       </div>
     </g-link>
-    <g-link to="/" class="journal-post">
+    <g-link  class="journal-post">
       <div class="container journal">
         <h2 class="journal-title">
           VueJS for your next project
@@ -27,7 +27,7 @@
         </p>
       </div>
     </g-link>
-    <g-link to="/" class="journal-post">
+    <g-link  class="journal-post">
       <div class="container journal">
         <h2 class="journal-title">
           macOS development environment
@@ -37,7 +37,7 @@
         </p>
       </div>
     </g-link>
-    <g-link to="/" class="journal-post">
+    <g-link class="journal-post">
       <div class="container journal">
         <h2 class="journal-title">
           About Typography
@@ -83,15 +83,12 @@ export default {
 
   &:hover {
     background-color: var(--color-base-1);
-
-    & > * {
-      transform: translateX(4rem);
-    }
   }
-
-
 }
 
+.journal-post:hover > *{
+  transform: translateX(4rem);
+}
 
 
 .journal-post:hover > {
