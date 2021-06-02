@@ -78,7 +78,7 @@ export default {
   transition: background .5s ease;
 
   & > * {
-    transition: all .5s ease;
+    transition: transform .5s ease;
   }
 
   &:hover {
@@ -86,6 +86,7 @@ export default {
 
     & > * {
       transform: translateX(4rem);
+      color: red;
     }
   }
 
