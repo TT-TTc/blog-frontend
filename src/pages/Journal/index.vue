@@ -86,7 +86,7 @@ export default {
 
     & > * {
       transform: translateX(4rem);
-      color: red;
+
     }
   }
 
