@@ -94,11 +94,6 @@ export default {
 }
 
 
-
-.journal-post:hover > {
-  transform: translateX(4rem);
-}
-
 .container.journal {
   max-width: 720px;
 }
